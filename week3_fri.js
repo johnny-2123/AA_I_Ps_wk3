@@ -12,5 +12,14 @@ parks.forEach(function (park, i) {
 // ----------------
 
 let newParks = parks.map(function (park) {
-    return park.toUpperCase();
+    return park + ' national park';
 });
+
+// console.log(newParks);
+
+
+let yParks = parks.filter(function (park) {
+    return park[0] === 'Y';
+});
+
+console.log(yParks);
