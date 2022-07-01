@@ -7,4 +7,10 @@ parks.forEach(function (park, i) {
     str += park
 });
 
-console.log(str);
+// console.log(str);
+
+// ----------------
+
+let newParks = parks.map(function (park) {
+    return park.toUpperCase();
+});
