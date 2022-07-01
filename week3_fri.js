@@ -1,9 +1,10 @@
 let parks = ['zion', 'yellowstone', 'acadia'];
 
 
+let str = '';
 
 parks.forEach(function (park, i) {
-    console.log(park);
-    console.log(i);
-
+    str += park
 });
+
+console.log(str);
